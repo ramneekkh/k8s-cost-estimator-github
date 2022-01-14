@@ -14,7 +14,8 @@ steps:
       rm -rf previous
       git config --global user.email "ramneekkhurana@google.com" && git config --global user.name "ramneekkh"
       git clone https://github.com/ramneekkh/k8s-cost-estimator-github.git previous/
-      cd previous
+      git clone https://github.com/ramneekkh/k8s-cost-estimator-github.git wordpress/
+      cd wordpress
       git checkout feature 
       cd ..
 
