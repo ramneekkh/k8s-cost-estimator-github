@@ -9,7 +9,7 @@ steps:
 
       echo ""
       echo "*************************************************************************"
-      echo "** Checking out 'main' branch ..."
+      echo "** Checking out 'feature' branch ..."
       echo "*************************************************************************"
       rm -rf previous
       git config --global user.email "ramneekkhurana@google.com" && git config --global user.name "ramneekkh"
