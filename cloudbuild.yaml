@@ -15,7 +15,7 @@ steps:
       git config --global user.email "ramneekkhurana@google.com" && git config --global user.name "ramneekkh"
       git clone https://github.com/ramneekkh/k8s-cost-estimator-github.git previous/
       cd previous
-      git checkout main 
+      git checkout feature 
       cd ..
 
       echo ""

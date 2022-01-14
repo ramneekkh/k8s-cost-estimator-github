@@ -18,6 +18,7 @@ on:
   push:
     branches:
     - main
+    - feature
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
